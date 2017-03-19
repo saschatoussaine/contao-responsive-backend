@@ -1,0 +1,70 @@
+/**
+ * Contao Open Source CMS
+ *
+ * Copyright (c) 2005-2016 Leo Feyer
+ *
+ * @license LGPL-3.0+
+ */
+
+/* Container */
+#container {
+	background: #fff;
+	padding: 5px 30px;
+	border-bottom: 1px solid #e5e5e5;
+	height: 33px;
+	overflow: hidden;
+}
+
+/* Left */
+#left {
+	float: left;
+	width:17%;
+}
+
+/* Right */
+#right {
+	float: right;
+	width:83%;
+	text-align: right;
+}
+
+.close {
+}
+
+/* Select menus */
+.tl_select {
+	width: 120px;
+	height: 22px !important;
+	line-height: 22px !important;
+}
+.styled_select span {
+	line-height: 20px !important;
+	padding: 0 10px;
+}
+
+/* Form elements */
+label {
+	margin: 0 5px 0 20px;
+}
+
+.tl_text.user,
+.tl_submit {
+	width: auto;
+	padding: 0 10px;
+}
+
+
+/* Hide the labels on small devices */
+@media (max-width:1023px) {
+	label {
+		display: none;
+	}
+
+	#left {
+		width:23%;
+	}
+
+	#right {
+		width:77%;
+	}
+}
